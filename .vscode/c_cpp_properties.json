@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "XC8",
+            "compilerPath": "C:/Program Files (x86)/Microchip/xc8/v2.10/bin/xc8.exe",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Program Files (x86)/Microchip/xc8/v2.10/pic/include"
+            ],
+            "defines": [
+                "__XC8",
+                "__18F24J50",
+                "SVN_REV=\"VISUALCODE\""
+            ]
+        },
+        {
+            "name": "SDCC",
+            "compilerPath": "C:/Program Files/SDCC/bin/sdcc.exe",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Program Files/SDCC/include"
+            ],
+            "defines": [
+                "__SDCC",
+                "__SDCC_PIC18F24J50",
+                "SVN_REV=\"VISUALCODE\""
+            ]
+        }
+    ],
+    "version": 4
+}
